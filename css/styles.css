@@ -446,8 +446,7 @@ img {
 
 .footer-icon-wrap  {
     display: flex;
-    align-items: baseline;
-    padding-left: 156px;
+    align-items: baseline; 
 }
 
 .footer-container {
@@ -487,9 +486,6 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     
-}
-.footer-icon-section {
-    flex: 1;
 }
 
 .footer-icon {
