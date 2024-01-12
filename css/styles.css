@@ -151,6 +151,7 @@ img {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .title-main {
@@ -310,7 +311,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-icon {
@@ -318,7 +319,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 24px; 
-    padding-bottom: 32px;
+    
 }
 
 .team-icon-list {
@@ -443,7 +444,7 @@ img {
     padding-bottom: 100px;
 }
 
-.footer-icon-wrap {
+.footer-icon-wrap  {
     display: flex;
     align-items: baseline;
     padding-left: 156px;
