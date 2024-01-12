@@ -7,6 +7,7 @@ body{
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul {
@@ -454,13 +455,12 @@ img {
 
 .footer-icon-wrap {
     display: flex;
-    justify-content: center;
     align-items: baseline;
+    padding-left: 156px;
 }
 
 .footer-container {
     margin-right: 120px;
-    margin-left: 156px;
 }
 
 .footer-link {
@@ -524,5 +524,9 @@ img {
 
 .footer-icon-link:hover {
    background-color: #31D0AA;
+}
+
+.footer-icon-link:focus {
+    background-color: #31D0AA;
 }
 /*! ---------------------------- */
