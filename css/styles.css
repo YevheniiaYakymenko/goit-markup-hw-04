@@ -373,6 +373,7 @@ img {
 
 .portfolio-item {
     position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
@@ -391,17 +392,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.portfolio-cover-wrap {
-    position: relative;
-    overflow: hidden;
-}
-
-.portfolio-item:hover .portfolio-text-wrap {
-    transform: translateY(0);
-}
-.portfolio-text-wrap {
     position: absolute;
     display: flex;
     padding: 40px 32px;
@@ -411,7 +401,15 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 100%;
-    
+}
+
+.portfolio-cover-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item:hover .portfolio-cover-text {
+    transform: translateY(0%);
 }
 
 .portfolio-subscribe {
